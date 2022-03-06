@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    padding: 100px 30px 36px;
+    background-image: url(../image/الاهلي-profile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-2 {
+    border: 5px solid #228138;
+    border-radius: 25px;
+    padding: 18px 11px;
+    background-repeat: no-repeat;
+    background-image: url(../image/bg-img-1.svg), url(../image/bg-img-2.svg);
+    background-size: 12px ,12px;
+    background-position: 3% 12%,96% 85%;
+}
+
+
+.div-1-1 {
+    background-color: rgb(255 255 255 / 55%);
+    border-radius: 35px;
+    padding: 23px 15px;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    margin-bottom: 20px;
+    background-image: url(../image/backgr.png);
+    background-size: contain;
+    background-position: center;
+}
+
+.div-1-1 img {
+    margin: 0px auto 10px;
+    border: 6px solid #228138;
+    border-radius: 100%;
+}
+
+.div-1-1 h1 {
+    font-family: 'Cairo', sans-serif;
+    color: #1f7433;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 0px 0px 29px #ffffff2e;
+}
+
+.div-1-1 p {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 600;
+    text-shadow: 0px 0px 10px #2281387d;
+}
+
+.div-1-1-icon {
+    margin: 15px 0px;
+}
+
+.div-1-1-icon img {
+    width: 30px;
+    border: 0px;
+    transition: 0.5s;
+}
+
+.div-1-1-icon img:hover {
+    box-shadow: 0px 0px 20px #228138;
+}
+
+.div-1-1 h2 {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #228138;
+    width: 170px;
+    border-radius: 40px;
+    padding: 5px 0px;
+    margin: 0px auto;
+    font-family: 'Cairo', sans-serif;
+}
+
+.div-1-1 h2:hover {
+    color: #228138;
+    text-shadow: 0px 0px 20px #ffffff;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.div-1-1 a {
+    text-decoration: none;
+}
+
+.div-copy a {
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0px 0px 10px black;
+}
+
+/*###########################################################################################*/
+
+@media only screen and (min-width: 320px) {
+    body {
+        padding: 70px 30px 90px;
+        height: 100%;
+    }
+}
+
+/*###########################################################################################*/
+
+@media only screen and (min-width: 568px) {
+    body {
+        height: 740px;
+    }
+}
+
+/*###########################################################################################*/
+
+@media only screen and (min-width: 768px) {
+    body {
+        padding: 60px 30px 55px;
+        height: 770px;
+    }
+
+    .div-1-1 h1 {
+        font-family: 'Cairo', sans-serif;
+        color: #228138;
+        text-align: center;
+        font-size: 32pt;
+    }
+
+    .div-1-1 h2 {
+        font-size: 18pt;
+    }
+}
+
+/*###########################################################################################*/
+
+@media only screen and (min-width: 998px) {
+    
+}
+
+/*####################################################################*/
+
+@media only screen and (min-height: 768px) { 
+    body {
+        height: 890px;
+    }
+}
+
